@@ -1,0 +1,29 @@
+# Core dependencies
+streamlit>=1.24.0
+transformers>=4.30.0
+torch>=2.0.0
+accelerate>=0.20.0
+bitsandbytes>=0.39.0
+scipy>=1.10.0
+trl>=0.7.0
+
+# Database and data processing
+pymongo>=4.3.3
+pandas>=1.5.3
+numpy>=1.24.3
+scikit-learn>=1.2.2
+
+# Embeddings and model utilities
+sentence-transformers>=2.2.2
+chromadb>=0.3.26
+rank-bm25>=0.2.2
+
+# Evaluation metrics
+nltk>=3.8.1
+sacrebleu>=2.3.1
+rouge>=1.0.1
+
+# Environment and utilities
+python-dotenv>=1.0.0
+tensorboard>=2.13.0
+matplotlib>=3.7.1
