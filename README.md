@@ -219,23 +219,30 @@ Bot: [Guidance on managing anxiety]
 ### 4.3. Directory structure
 ```
 app/
-├── answer_generator.py    # Answer generation logic
-├── app.py                # Streamlit interface
-├── configuration.py      # System configuration
-├── data_processor.py     # Data processing
-├── embedding_utils.py    # Embedding generation
-├── main.py              # CLI interface
-├── model_loader.py      # Model loading
-├── mongo_manager.py     # MongoDB management
-├── question_suggester.py # Question suggestion
-├── search_engine.py     # Search engine
-└── utils.py             # Utilities
+├── answer_generator.py    	# Answer generation logic
+├── app.py                		 # Streamlit interface
+├── configuration.py       	# System configuration
+├── data_processor.py      	# Data processing
+├── embedding_utils.py    	# Embedding generation
+├── main.py                		# CLI interface
+├── model_loader.py        	# Model loading
+├── mongo_manager.py       	# MongoDB management
+├── question_suggester.py  	# Question suggestion
+├── search_engine.py      	# Search engine
+└── utils.py               		# Utilities
 
-data/                    # data
-data_finetune             # data to finetune models
-models/                  # Trained models
-Finetuning models/      # Fine-tuning notebooks
-Experiment 1/           # Method evaluation experiment
+data/
+   data_rag                   		# data for rag
+   data_experimen1            	# data of experiment 1
+   data_experiment2           	# data to fine-tune models
+Finetuning models/         	# Fine-tuning notebooks
+	Finetune_Qwen.ipynb		# Fine-tuning Qwen model
+	Finetune_gemma.ipynb		# Fine-tuning Gemma model
+	Finetune_llama.ipynb		# Fine-tuning Llama model
+Experiment 1/              		# Method evaluation experiment
+.env                       		# Environment configuration
+requirements.txt           		# Python dependencies
+Readme.md      
 ```
 
 ### 4.4. Reproducing Context Retrieval Experiments (Experiment 1)
