@@ -52,8 +52,8 @@ matplotlib>=3.7.1
 ### 2.1. Environment Setup
 1. Clone repository về máy:
 ```bash
-git clone <repository-url>
-cd mental-health-chatbot
+git clone https://github.com/ttdat1712/AI-mental-health-chatbot.git
+cd AI-mental-health-chatbot
 ```
 
 2. Create and activate a virtual environment:
