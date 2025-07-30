@@ -153,7 +153,7 @@ Answer: "Bạn có thể thử các phương pháp như hít thở sâu, thiền
    ```python
    training_args = TrainingArguments(
        output_dir="output_directory",
-       max_steps=1000,
+       num_train_epochs=2,
        per_device_train_batch_size=1,
        gradient_accumulation_steps=8,
        learning_rate=2e-4,
@@ -242,7 +242,8 @@ Finetuning models/         	# Fine-tuning notebooks
 Experiment 1/              		# Method evaluation experiment
 .env                       		# Environment configuration
 requirements.txt           		# Python dependencies
-Readme.md      
+Readme.md
+Demo.mp4				# Demo application     
 ```
 
 ### 4.4. Reproducing Context Retrieval Experiments (Experiment 1)
